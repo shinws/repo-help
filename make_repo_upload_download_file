@@ -1,0 +1,39 @@
+$ history
+    1  git help
+
+    3  git config --global user.name "shinws"
+    4  git config --global user.email "shinws@sk.com"
+    5  git config --list
+    
+    6  mkdir ~/test-repo
+   13  cd test-repo
+   16  git init
+   
+   17  git remote add origin https://github.com/shinws/test-repo.git
+   18  ls
+   19  git add .
+   20  git add -u
+   21  git commit -m "message"
+   
+   22  git push
+   
+   23  git branch
+   24  git checkout -b b1
+   25  git branch
+   26  git checkout master
+   28  vi test
+   29  cd ..
+
+   
+   31  mkdir datasciencecoursera
+   32  cd datasciencecoursera
+   36  vi HelloWorld.md
+   38   git init
+   39  ls -al
+   40   git remote add origin https://github.com/shinws/datasciencecoursera
+   41  git remote
+   42  git remote -v
+   44  git add .
+   46  git commit -m "init"
+   47  git push origin master
+   48  git push -u origin master
